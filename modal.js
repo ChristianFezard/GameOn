@@ -93,7 +93,7 @@ function validBirthdate() {
     const errorBirthdate = document.querySelector("#error-message-birthdate");
 
     if(birthdate === "") {
-      return errorBirthdate.textContent = "Veuillez entrer un date.";
+      return errorBirthdate.textContent = "Veuillez entrer une date.";
     }
 
     const date = new Date(birthdate);
